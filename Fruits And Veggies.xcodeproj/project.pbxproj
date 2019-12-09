@@ -13,6 +13,11 @@
 		849AA862238EF75400E58D24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849AA860238EF75400E58D24 /* Main.storyboard */; };
 		849AA864238EF75500E58D24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849AA863238EF75500E58D24 /* Assets.xcassets */; };
 		849AA867238EF75500E58D24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849AA865238EF75500E58D24 /* LaunchScreen.storyboard */; };
+		849AA871238F1D0200E58D24 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849AA870238F1D0200E58D24 /* TableViewCell.swift */; };
+		849AA873238F233500E58D24 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849AA872238F233500E58D24 /* DetailViewController.swift */; };
+		849AA875238F2B1800E58D24 /* AddingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849AA874238F2B1800E58D24 /* AddingViewController.swift */; };
+		84F852912395BF9700CFDD6F /* FoodData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F852902395BF9700CFDD6F /* FoodData.swift */; };
+		84F852932395C04900CFDD6F /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F852922395C04900CFDD6F /* Food.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		849AA863238EF75500E58D24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		849AA866238EF75500E58D24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		849AA868238EF75500E58D24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849AA870238F1D0200E58D24 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		849AA872238F233500E58D24 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		849AA874238F2B1800E58D24 /* AddingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingViewController.swift; sourceTree = "<group>"; };
+		84F852902395BF9700CFDD6F /* FoodData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodData.swift; sourceTree = "<group>"; };
+		84F852922395C04900CFDD6F /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +69,11 @@
 				849AA85A238EF75400E58D24 /* AppDelegate.swift */,
 				849AA85C238EF75400E58D24 /* SceneDelegate.swift */,
 				849AA85E238EF75400E58D24 /* ViewController.swift */,
+				84F852902395BF9700CFDD6F /* FoodData.swift */,
+				84F852922395C04900CFDD6F /* Food.swift */,
+				849AA870238F1D0200E58D24 /* TableViewCell.swift */,
+				849AA872238F233500E58D24 /* DetailViewController.swift */,
+				849AA874238F2B1800E58D24 /* AddingViewController.swift */,
 				849AA860238EF75400E58D24 /* Main.storyboard */,
 				849AA863238EF75500E58D24 /* Assets.xcassets */,
 				849AA865238EF75500E58D24 /* LaunchScreen.storyboard */,
@@ -138,9 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84F852912395BF9700CFDD6F /* FoodData.swift in Sources */,
 				849AA85F238EF75400E58D24 /* ViewController.swift in Sources */,
+				849AA871238F1D0200E58D24 /* TableViewCell.swift in Sources */,
+				849AA873238F233500E58D24 /* DetailViewController.swift in Sources */,
 				849AA85B238EF75400E58D24 /* AppDelegate.swift in Sources */,
+				84F852932395C04900CFDD6F /* Food.swift in Sources */,
 				849AA85D238EF75400E58D24 /* SceneDelegate.swift in Sources */,
+				849AA875238F2B1800E58D24 /* AddingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
